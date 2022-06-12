@@ -11,7 +11,6 @@ const Container = styled.div`
     font-size:14px;
     font-weight:bolder;
 `
-
 const Announcements = () => {
   return (
     <Container>
