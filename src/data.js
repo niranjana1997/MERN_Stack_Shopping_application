@@ -20,4 +20,22 @@ export const sliderItems = [
         desc: "Animal capes & fun cooler bags for family beach days.",
         bg: "white",
     }
-]
+];
+
+export const categories = [
+    {
+        id: 1,
+        img: "https://static.zara.net/photos///2022/I/0/1/p/7979/306/505/2/w/750/7979306505_1_1_1.jpg?ts=1654788462977",
+        title: "BLAZERS",
+    },
+    {
+        id: 2,
+        img: "https://static.zara.net/photos///2022/I/0/1/p/7807/026/712/2/w/750/7807026712_2_5_1.jpg?ts=1654791228076",
+        title: "SHIRTS | BLOUSES",
+    },
+    {
+        id: 3,
+        img: "https://static.zara.net/photos///2022/V/0/1/p/3562/465/050/2/w/750/3562465050_1_1_1.jpg?ts=1652344290913",
+        title: "DRESSES | JUMPSUITS",
+    },
+];
