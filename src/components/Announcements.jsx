@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Container = styled.div`
     height:30px;
-    background-color:teal;
+    background-color:#e79c4b;
     color:white;
     display:flex;
     align-items:center;
@@ -14,7 +14,7 @@ const Container = styled.div`
 const Announcements = () => {
   return (
     <Container>
-        Super Deal! Free Shipping on Orders over $50
+    Free shipping over US$50 and free returns - NEW! Now pay in 4 interest-free installments with Klarna.
     </Container>
   )
 }

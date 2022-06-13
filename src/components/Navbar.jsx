@@ -64,7 +64,7 @@ const Navbar = () => {
         <Left>
             <Language>EN</Language>
                 <SearchContainer>
-                <Search style={{color:"gray",fontSize:16}}/>
+                <Search style={{color:"#e79c4b",fontSize:16}}/>
                 <Input/>
                 </SearchContainer>
         </Left>
@@ -73,12 +73,11 @@ const Navbar = () => {
             <MenuItem>Register</MenuItem>
             <MenuItem>Sign In</MenuItem>
             <MenuItem>
-                <Badge badgeContent={4} color="primary">
+                <Badge badgeContent={4} color="e79c4b">
                     <ShoppingCartOutlined/>
                 </Badge>
             </MenuItem>
         </Right>
-        NAVBAR
         </Padding>
     </Container>
   )
