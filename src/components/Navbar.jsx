@@ -19,7 +19,7 @@ const Padding = styled.div`
 `
 
 const Input = styled.input`
-border:none;
+    border:none;
 `
 
 const Left = styled.div`
@@ -38,7 +38,7 @@ const Right = styled.div`
     justify-content:flex-end;
 `
 const SearchContainer = styled.div`
-    border: 0.5px solid lightgray;
+    border: 0.5px solid #e38f35;
     display:flex;
     align-items:center;
     margin-left:25px
@@ -64,7 +64,7 @@ const Navbar = () => {
         <Left>
             <Language>EN</Language>
                 <SearchContainer>
-                <Search style={{color:"#e79c4b",fontSize:16}}/>
+                <Search style={{color:"#e38f35",fontSize:16}}/>
                 <Input/>
                 </SearchContainer>
         </Left>
@@ -73,7 +73,7 @@ const Navbar = () => {
             <MenuItem>Register</MenuItem>
             <MenuItem>Sign In</MenuItem>
             <MenuItem>
-                <Badge badgeContent={4} color="e79c4b">
+                <Badge badgeContent={4} color="#e38f35">
                     <ShoppingCartOutlined/>
                 </Badge>
             </MenuItem>

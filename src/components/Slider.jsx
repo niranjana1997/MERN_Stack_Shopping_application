@@ -119,6 +119,6 @@ export const Slider = () => {
         </Arrow>   
     </Container>
   )
-}
+};
 
 export default Slider

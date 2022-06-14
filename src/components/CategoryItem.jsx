@@ -51,6 +51,6 @@ const CategoryItem = ({item}) => {
         </Info>
     </Container>
   )
-}
+};
 
 export default CategoryItem
