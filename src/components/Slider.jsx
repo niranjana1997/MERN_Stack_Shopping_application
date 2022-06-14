@@ -12,6 +12,7 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
+background-color:white;
 `;
 
 // CSS - arrow used to navigate through the slider 
@@ -38,6 +39,7 @@ const Arrow = styled.div`
 // diaplay: flex - to make the content vertical
 // transform:translateX(0vw) - move the slider along X-Axis
 const Wrapper = styled.div`
+
   height: 100%;
   display: flex;
   transition: all 1.5s ease;

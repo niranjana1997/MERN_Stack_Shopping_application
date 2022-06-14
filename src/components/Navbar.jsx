@@ -3,16 +3,17 @@ import { Search } from '@material-ui/icons'
 import { ShoppingCartOutlined } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
+import logo from "../images/Logo.png"
 //import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 
 const Container = styled.div`
-    height: 50px;
-    //background-color: black;
+    height: 80px;
+    background-color: white;
 `
 
 const Padding = styled.div`
-    padding: 10px 20px;
+    padding: 20px 30px;
     display:flex; // To make it horizontal
     justify-content:space-between; // to make space between the values
 
@@ -44,13 +45,16 @@ const SearchContainer = styled.div`
     margin-left:25px
     padding:5px;
 `
-const Logo = styled.h1`
-    font-weight:bold;
-`
+// const Logo = styled.h1`
+//     font-weight:bold;
+// `
 const Language = styled.span`
     font-size: 14px;
     cursor:pointer;
 `
+const Image = styled.img`
+    height:50px;
+`;
 
 const MenuItem = styled.div`
     font-size:14px;
@@ -68,7 +72,9 @@ const Navbar = () => {
                 <Input/>
                 </SearchContainer>
         </Left>
-        <Center><Logo>Almond</Logo></Center>
+        <Center>
+        <Image src={logo}/>
+        </Center>
         <Right>
             <MenuItem>Register</MenuItem>
             <MenuItem>Sign In</MenuItem>
