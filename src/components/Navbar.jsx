@@ -39,7 +39,7 @@ const Right = styled.div`
     justify-content:flex-end;
 `
 const SearchContainer = styled.div`
-    border: 0.5px solid #e38f35;
+    border: 0.5px solid #f1ebdf;
     display:flex;
     align-items:center;
     margin-left:25px
