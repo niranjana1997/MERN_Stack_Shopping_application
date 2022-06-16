@@ -17,13 +17,16 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
-  background-color: #f1ebdf;
+  color:white;
+  text-align:center;
+  background-color: black;
+  
 `;
 
 const Title = styled.h1`
   font-size: 24px;
-  font-weight: 300;
-  text-align:center;
+  font-weight: 600;
+  align-items:center;
 `;
 
 const Form = styled.form`
@@ -38,19 +41,23 @@ const Input = styled.input`
   padding: 10px;
 `;
 
-const Agreement = styled.span`
+const Agreement = styled.div`
   font-size: 12px;
   margin: 20px 0px;
+  font-weight: 600;
 `;
 
 const Button = styled.button`
   width: 40%;
-  border: none;
+  border: 1px black;
   padding: 15px 20px;
   background-color: #f1ebdf;
   color: black;
   cursor: pointer;
-  align-items: center;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
 `;
 const Register = () => {
   return (
@@ -67,13 +74,11 @@ const Register = () => {
           <Input placeholder="CONFIRM PASSWORD" />
           <Input placeholder="NAME" />
           <Input placeholder="LAST NAME" />
-          <Agreement>I WOULD LIKE TO RECEIVE SMS NOTIFICATIONS RELATED TO MY ALMOND.COM ORDERS.
-          </Agreement>
           <Agreement>
             I ACCEPT THE <u>PRIVACY STATEMENT</u>
           </Agreement>
-          <Button>CREATE</Button>
         </Form>
+        <Button>CREATE</Button>
       </Wrapper>
     </Container>
   );
