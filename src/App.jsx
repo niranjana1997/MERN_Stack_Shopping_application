@@ -4,9 +4,9 @@ import Register from "./pages/Register";
 import SingleProduct from "./pages/SingleProduct";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+import Slider from "./components/Slider";
 
 const App = () => {
-  //return <div>Hello world!</div>;
   return <Cart/>;
   };
 

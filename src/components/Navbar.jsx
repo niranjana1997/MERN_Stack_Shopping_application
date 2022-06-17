@@ -11,16 +11,18 @@ const Container = styled.div`
     height: 80px;
     background-color: white;
 `
-
+// display:flex; // To make it horizontal
+// justify-content:space-between; // to make space between the values
 const Padding = styled.div`
     padding: 20px 30px;
-    display:flex; // To make it horizontal
-    justify-content:space-between; // to make space between the values
+    display:flex;
+    justify-content:space-between;
 
 `
 
 const Input = styled.input`
     border:none;
+    height:25px;
 `
 
 const Left = styled.div`
@@ -39,19 +41,16 @@ const Right = styled.div`
     justify-content:flex-end;
 `
 const SearchContainer = styled.div`
-    border: 0.5px solid #f1ebdf;
+    border: 0.5px solid #8f8570;
     display:flex;
     align-items:center;
     margin-left:25px
-    padding:5px;
+    padding:10px;
 `
 // const Logo = styled.h1`
 //     font-weight:bold;
 // `
-const Language = styled.span`
-    font-size: 14px;
-    cursor:pointer;
-`
+
 const Image = styled.img`
     height:50px;
 `;
@@ -60,26 +59,32 @@ const MenuItem = styled.div`
     font-size:14px;
     cursor:pointer;
     margin-left:25px;
+    font-weight:bolder
 `
 const Navbar = () => {
   return (
     <Container>
         <Padding>
         <Left>
-            <Language>EN</Language>
-                <SearchContainer>
-                <Search style={{color:"#e38f35",fontSize:16}}/>
-                <Input/>
-                </SearchContainer>
+            <MenuItem>Women</MenuItem>
+            <MenuItem>Men</MenuItem>
+            <MenuItem>Teen</MenuItem>
+            <MenuItem>Kids</MenuItem>
+            <MenuItem>Home</MenuItem>
+                
         </Left>
         <Center>
         <Image src={logo}/>
         </Center>
         <Right>
+            <SearchContainer>
+                <Search style={{color:"#8f8570",fontSize:16}}/>
+                <Input/>
+            </SearchContainer>
             <MenuItem>Register</MenuItem>
             <MenuItem>Sign In</MenuItem>
             <MenuItem>
-                <Badge badgeContent={4} color="#e38f35">
+                <Badge badgeContent={4} color="#f1ebdf">
                     <ShoppingCartOutlined/>
                 </Badge>
             </MenuItem>

@@ -4,6 +4,14 @@ import videoRegister from "../images/RegisterVideo.mp4"
 import VideoBg from "reactjs-videobg";
 import Women from "../images/Women.mp4"
 import Men from "../images/Men.mp4"
+import Navbar from "../components/Navbar";
+import Announcements from "../components/Announcements";
+import logo from "../images/Logo.png"
+
+const Image = styled.img`
+    height:75px;
+    padding:20px
+`;
 
 const Container = styled.div`
   width: 100vw;
@@ -19,7 +27,7 @@ const Wrapper = styled.div`
   padding: 20px;
   color:white;
   text-align:center;
-  background-color: black;
+  background-color: #0000002b;
   
 `;
 
@@ -39,6 +47,8 @@ const Input = styled.input`
   min-width: 40%;
   margin: 20px 10px 0px 0px;
   padding: 10px;
+  color:black;
+  font-weight:bolder;
 `;
 
 const Agreement = styled.div`
@@ -66,6 +76,7 @@ const Register = () => {
     <VideoBg.Source src={Women} type="video/mp4" />
     </VideoBg>
       <Wrapper>
+      <Image src={logo}/>
         <Title>CREATE AN ACCOUNT</Title>
         <Form>
           <Input placeholder="EMAIL" />

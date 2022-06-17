@@ -5,6 +5,12 @@ import videoRegister from "../images/RegisterVideo.mp4"
 import VideoBg from "reactjs-videobg";
 import Women from "../images/Women.mp4"
 import Men from "../images/Men.mp4"
+import logo from "../images/Logo.png"
+
+const Image = styled.img`
+    height:75px;
+    padding:20px
+`;
 
 const Container = styled.div`
   width: 100vw;
@@ -20,7 +26,7 @@ const Wrapper = styled.div`
   padding: 20px;
   color:white;
   text-align:center;
- // background-color: black;
+  background-color: #0000002b;
   
 `;
 
@@ -35,10 +41,11 @@ const Form = styled.form`
 `;
 
 const Input = styled.input`
-flex:1;
+  flex:1;
   min-width: 40%;
   margin: 10px 0px;
   padding: 10px;
+  font-weight:bolder;
 `;
 
 const Link = styled.a`
@@ -65,6 +72,7 @@ const Login = () => {
     <VideoBg.Source src={Women} type="video/mp4" />
     </VideoBg>
       <Wrapper>
+      <Image src={logo}/>
         <Title>LOG IN</Title>
         <Form>
           <Input placeholder="EMAIL" />
