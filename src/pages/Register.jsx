@@ -1,12 +1,12 @@
 
 import styled from "styled-components";
-import videoRegister from "../images/RegisterVideo.mp4"
+import videoRegister from "../assets/RegisterVideo.mp4"
 import VideoBg from "reactjs-videobg";
-import Women from "../images/Women.mp4"
-import Men from "../images/Men.mp4"
+import Women from "../assets/Women.mp4"
+import Men from "../assets/Men.mp4"
 import Navbar from "../components/Navbar";
 import Announcements from "../components/Announcements";
-import logo from "../images/Logo.png"
+import logo from "../assets/Logo.png"
 
 const Image = styled.img`
     height:75px;

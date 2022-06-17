@@ -3,7 +3,7 @@ import { Search } from '@material-ui/icons'
 import { ShoppingCartOutlined } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
-import logo from "../images/Logo.png"
+import logo from "../assets/Logo.png"
 //import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 
