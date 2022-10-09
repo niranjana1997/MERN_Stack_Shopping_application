@@ -7,7 +7,7 @@ import Cart from "./pages/Cart";
 import Slider from "./components/Slider";
 
 const App = () => {
-  return <Register/>;
+  return <Cart/>;
   };
 
 export default App;
