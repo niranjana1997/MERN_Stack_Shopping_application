@@ -1,5 +1,5 @@
 # React_Shopping_Application
-This repository contains a front-end e-commerce web application built using ReactJS, 
+This repository contains a front-end e-commerce web application built using ReactJS
 
 ## Snapshots and Videos of the Pages
 ### Home Page:
